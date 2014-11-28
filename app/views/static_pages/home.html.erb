@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home | Sample App</title>
+    <%= stylesheet_link_tag    'application', media: 'all',
+                                              'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+    <!--[if lt IE 9]>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
+      </script>
+    <![endif]-->
+  </head>
+  <body>
+    <header>
+      <div class="w100 float-left">
+        <a id="logo" href="http://www.truyen.vn/" title="Moi Ngay Mot Truyen Hay">
+          <img src="/assets/logo-new.png" alt="blog truyen hay moi ngay">
+        </a>
+        <div id="top-banner" class="w0 float-right">
+          <img src="/assets/event_t5_top.jpg" alt="ra mat sach thang 5">
+        </div>
+      </div>
+    </header>
+    <div id="wrap-mainmenu">
+      <div id="mainmenu" class="w0 float-left">
+        <nav>
+          <ul>
+            <li>Trang chủ</li>
+            <li>Truyện ngắn</li>
+            <li>Truyện Blog</li>
+            <li>Sách hay</li>
+            <li>Tâm sự</li>
+            <li>Tản mạn</li>
+            <li>Kinh dị</li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <article>
+      <h2>Blog truyện tản mạn về cuộc sống, tình yêu, tâm sự</h2>
+
+      <section>
+        <h2>Truyện ngắn hay về Tình bạn, Tình yêu, Gia đình, Cuộc sống</h2>
+        <div id="content">
+          <h2>Khe cửa sổ mùa đông</h2>
+          <p>Tôi nhìn bàn tay mình, bàn tay cố thản nhiên để không xiết tay Hoài An chặt quá, để không nắm tay Hoài An lâu quá, vừa đập vỡ mối quan hệ gắng giữ bấy lâu.
+
+          ...Nhưng mỗi mùa đông, tôi tự kiếm một góc vắng, hé cửa một chút để gió lạnh tìm đường áp vào mặt. Những lúc như thế, tôi nhớ Hoài An khủng khiếp.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Blog truyện tản mạn về cuộc sống, tình yêu, tâm sự</h2>
+        <div id="content">
+          <h2>Hạnh phúc trưng bày</h2>
+          <p>Bi kịch là ở chỗ, chúng ta đã dựa vào người khác quá nhiều.
+
+            Trưng bày hạnh phúc, tôn sùng nghệ thuật tự kể chuyện, sẽ là hai lưỡi dao nhọn đâm sâu vào tâm thức bạn, tạo nên dòng suối hoang tưởng. Bạn tưởng mình được tắm mát, bạn tưởng mình được reo vui, thật ra bạn chỉ đang lạc giữa sa mạc và nhìn thấy ảnh ảo vì quá mệt mỏi...
+          </p>
+        </section>
+      </article>
+
+    <footer>
+      <p>&copy; 2014 Monday Times. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
